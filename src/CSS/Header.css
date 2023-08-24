@@ -1,0 +1,36 @@
+.logo{
+    width: 150px;
+}
+
+.facebook .instagram .linkedin .twitter{
+    width: 54px;
+    height: 54px;
+}
+
+.social{
+    display: flex;
+    gap: 1rem;
+}
+
+/* .search input{
+    width: 695px;
+height: 74px;
+flex-shrink: 0;
+
+
+} */
+
+.input-group{
+    border-radius: 90px;
+    background: #FAFAFA;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 7px 20px;
+}
+.search input{
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.search img{
+    width: 25px;;
+}

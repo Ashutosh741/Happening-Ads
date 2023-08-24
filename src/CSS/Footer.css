@@ -1,0 +1,57 @@
+.footerText{
+    color: #FFF;
+text-align: center;
+font-family: Roboto Slab;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 184.885%; /* 29.582px */
+text-transform: capitalize;
+padding : 7px 0;
+}
+
+.headingContent li{
+    list-style: none;
+    text-align: start;
+    color: #FFF;
+font-family: Roboto Slab;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.headingContent ul{
+    padding: 0px;
+}
+
+.heading h5{
+    color: #FFF;
+font-family: Roboto Slab;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-align: start;
+}
+
+.footer_container {
+     /* position: relative;  */
+     padding-top: 5rem;
+  }
+  
+  .footer-line {
+    /* position: absolute; */
+    bottom: 0; /* Position at the bottom of the container */
+    left: 0; /* Align with the left edge of the container */
+    width: 100%; /* Full width */
+    height: 1px; /* Line height */
+    background: repeating-linear-gradient(
+      to right,
+      transparent,
+      transparent 5px,
+      black 5px,
+      black 6px
+    ); /* Repeating pattern of dots */
+  }
+  

@@ -1,0 +1,29 @@
+.carousel-item img{
+    height: 550px;;
+  }
+
+  .carousel-indicators{
+    bottom: -3rem;
+    /* background-color: blue; */
+  }
+
+  .carousel-indicators button{
+    border-radius: 50%;
+    height: 15px !important;
+    width: 15px !important;
+    background-color: #ddd!important;
+    opacity: 1 !important;
+  }
+
+  .carousel-indicators .active{
+    background-color  :#76306E !important
+  }
+
+  .carousel-indicators button:hover{
+    background-color  :#76306E !important
+
+  }
+
+  .slick-slider button{
+    display: none;
+  }

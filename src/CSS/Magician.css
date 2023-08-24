@@ -1,0 +1,62 @@
+
+/* magician css */
+
+.magicians-content{
+    /* background-image: url('https://static.vecteezy.com/system/resources/previews/000/692/604/non_2x/party-crowd-banner-design-vector.jpg') !important; */
+background-image: url('../images/386732_party image for bakground in pc_ _xl-1024-v1-0.png') !important; 
+background-size: cover;
+}
+  
+  
+  .magicians-content {
+    /* height: 374px; */
+    width: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    padding: 64px;
+    margin-top: 52px;
+  }
+  
+  .magicians-content .magic_logo {
+    height: 120px;
+  }
+  
+  .lazy {
+    object-fit: cover;
+  }
+  
+  .magicians-content .magic_description {
+    text-shadow: 1px 1px 0 rgba(0,0,0,.5);
+    font-size: 24px;
+    line-height: 1.17;
+    color: #fff;
+    margin: 32px 0;
+  }
+  
+  .magicians-content .apply {
+    border-radius: 4px;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: .8px;
+    color: rgba(0,0,0,.87);
+    border: none;
+    padding: 10px;
+    box-shadow: none;
+    transition: 0.7s ease-in-out;
+  }
+  
+  :not(.show-scrollbars) {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .apply:hover{
+    background-color: #76306E;
+    color: white !important;
+  }

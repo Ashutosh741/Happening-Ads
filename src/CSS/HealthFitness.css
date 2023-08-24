@@ -1,0 +1,45 @@
+.save button{
+    color: #FFF;
+font-family: Roboto Slab;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+border-radius: 90px;
+background: #76306E;
+border: none;
+width: 98px;
+height: 33px;
+}
+
+.card_wrapper{
+    padding : 1rem;
+}
+
+.card_name h6{
+    color: #000;
+font-family: Roboto Slab;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-top: 1rem;
+text-align: justify;
+}
+
+.card_desc h6{
+    color: #A49797;
+font-family: Roboto Slab;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: justify;
+padding-bottom: 2em;
+
+}
+
+.read_more{
+    color : #000;
+}

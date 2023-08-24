@@ -1,38 +1,416 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+  font-family: 'Roboto Slab', serif;
+  /* overflow: hidden; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.AdSale .items img{
+  width: 437px;
+height: 606px;
+flex-shrink: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* .carousel_top{
+  max-height: 550px;
+} */
+
+.slick-slider{
+  overflow: hidden;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* blog tab css */
+
+.blogTab .nav-item button{
+  color : #76306E
+}
+.blogTab .nav-item .active{
+border: none !important;
+border-bottom: solid 4px #ef1c74 !important;
+}
+
+.blogTab{
+}
+
+.blogTab .nav-tabs{
+  border : none !important;
+  box-shadow: 0 3px 8px 0 rgba(0,0,0,.12);
+
+}
+
+.blogTab .nav-link:hover {
+   border: none !important;
+   box-shadow: none !important;
+}
+
+.blogCard .headings .blog-heading{
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: rgba(0,0,0,.87);
+}
+
+.blogCard .headings .blog-subheading{
+  font-size: 16px;
+  color: rgba(0,0,0,.54);
+  text-transform: capitalize;
+}
+
+
+.blogCard .card_wrapper{
+  padding : 10px;
+  border-radius: 8px;
+  box-shadow: 0 3px 8px 0 rgba(0,0,0,.12);
+  position: relative;
+}
+
+.blogCard .card_wrapper .pin-holder img{
+  position : absolute;
+  opacity:  0.4;
+  z-index: 1;
+  width: 30px !important;
+  left: 1rem;
+  top: 1rem;
+}
+
+.blogCard .card_wrapper .pin-holder img:hover{
+  opacity: 1;
+}
+
+.blogCard .image_holder{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+
+.blogCard .image_holder:hover{}
+
+.blogCard .image_holder >img:hover{
+  transform: scale(1.1);
+  transition: 0.4s;
+  transition-timing-function: ease-in-out;
+}
+
+.blogCard .card_wrapper .card_details{
+  position: relative;
+  color: rgba(0,0,0,.54);
+}
+
+.blogCard .card_wrapper .category{
+  position : absolute;
+  padding: 4px 8px;
+  background-color: black;
   color: white;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  top: -15px;
+  font-size: 14px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.blogCard .card_wrapper .detail_holder .blog-title{
+  padding-top: 2rem;
+  font-size: 24px;
+  overflow: hidden;
+  height: 90px;
+  margin-bottom: 12px;
+  line-height: 1.33;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.blogCard .card_wrapper .detail_holder .blog-description{
+  font-size: 16px;
+  height: 85px;
+  overflow: hidden;
+  color: rgba(0,0,0,.54);
+  margin-bottom: 12px;
+  line-height: 1.33;
+
+}
+
+.blogCard a{
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+  cursor: auto;
+
+}
+
+.blogCard .card_details .tags{
+  overflow: hidden;
+  /* padding: 4px 15px; */
+  margin-top: 15px;
+  height: 32px;
+}
+
+
+.blogCard .card_details .tags h3{
+  border : 1px solid #d8dae1;
+  border-radius: 16px;
+  font-size: 12px; 
+  display: inline-block;
+  padding: 6px;
+  margin: 0px 6px 0px 6px;
+}
+
+.blogCard .card_details .tags .tag-holder{
+  color: rgba(0,0,0,.54);
+}
+
+.blogCard .card_details .date{
+  text-align: left;
+  padding: 7px;
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 12px;
+  margin-right: 12px;
+}
+
+.blogCard .card_details .bookmark-button{
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+
+}
+
+.footer .franchiseBox{
+  padding: 26px;
+  margin: 0px auto;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  width: 62%;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.footer .boxContent{
+  max-width: 635px;
+  /* position: absolute; */
+  /* bottom: 100%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, 50%); */
+}
+
+.footer .boxContent h4,.footer .boxContent p{
+  font-size: 16px;
+  margin: 0px 0px 7px;
+  line-height: 1.5;
+  letter-spacing: 0.1px;
+  color: rgb(16, 18, 23);
+}
+
+.footer .boxContent h4{
+  font-weight: bolder;
+}
+
+.footer .franchiseButton{
+  display: inline-block;
+    padding: 16px 40px;
+    letter-spacing: 0.21px;
+    color: rgb(16, 18, 23);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 25px;
+    z-index: 1;
+    background-image: linear-gradient(253deg, rgb(255, 232, 111), rgb(253, 220, 44));
+    text-decoration: none;
+}
+
+
+.footer .franchiseButton:hover::before {
+    transform: scale(10, 10);
+    opacity: 0.15;
+    transition: all 0.3s ease 0s;
+    
+}
+
+.footer .franchiseButton::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    background-image: radial-gradient(circle, rgb(0, 0, 0) 15%, transparent 10.01%);
+    background-repeat: no-repeat;
+    background-position: 50% center;
+    transform: scale(0, 0);
+    opacity: 0;
+    transition: all 0.4s ease 0s;
+}
+
+
+/* .footer  */
+
+.footer .linksHolder .link h4{
+  color: rgb(255, 255, 255);
+  margin: 0px 0px 15px;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+
+.footer .linksHolder .link ul{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer .linksHolder .link ul a{
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 1.6;
+  color: rgb(255, 255, 255);
+  transition: all 0.3s ease 0s;
+  opacity: 0.7;
+}
+
+.footer .linksHolder .link ul a:hover{
+  opacity: 1;
+}
+
+.footer .footerPaymentStyle .imageWrap{
+  color : white
+}
+
+.footer{
+  padding: 144px 0px 40px;
+  position: relative;
+  background-image: linear-gradient(144deg, rgb(25, 36, 84), rgb(82, 94, 147));
+  margin-top: 5rem;
+}
+
+.footer .footerPaymentTitle{
+  font-size: 12px;
+  line-height: 1.65;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  display: block;
+  color: rgb(255, 255, 255);
+}
+
+.footer .rightContent{
+  padding-left: 30px;
+  width: 50%;
+}
+
+
+.footer .rightContent h3{
+  font-size: 26px;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0.14px;
+  margin: 0px 0px 4px;
+}
+
+.footer .rightContent  .totalDownloads {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  opacity: 0.7;
+  width: 100%;
+  margin: 0px 0px 14px;
+  font-weight: 400;
+}
+
+.message-wrap{
+  position: relative;
+  overflow: hidden;
+}
+
+.get-sms {
+  position: relative;
+  width: 294px;
+  height: 43px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 22px;
+  padding-left: 17px;
+  margin-bottom: 17px;
+  box-shadow: rgb(255, 255, 255) 0px 0px 2px 0px inset, rgb(255, 255, 255) 0px 0px 1px 0px, rgb(255, 255, 255) 0px 0px 1px 0px inset;
+  transition: all 0.2s ease 0s;
+}
+
+.country-code {
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  position: absolute;
+  left: 16px;
+  top: 0px;
+  bottom: 0px;
+  line-height: 43px;
+  display: none;
+}
+
+input {
+  font-size: 14px;
+  padding: 6px 2px 7px 5px;
+  border: none;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 1px;
+  background: transparent;
+  height: 100%;
+  outline: 0px;
+  width: 222px;
+  color: rgb(255, 255, 255);
+}
+
+.success-text {
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  position: absolute;
+  right: 50px;
+  top: 0px;
+  bottom: 0px;
+  line-height: 40px;
+  display: none;
+}
+
+ .send-btn {
+  position: absolute;
+  width: 41px;
+  height: 41px;
+  right: 0px;
+  top: 0px;
+  margin: 0px;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+  background: rgb(254, 221, 16);
+  border: 1px solid rgb(55, 66, 117);
+}
+
+.get-sms.message-sent {
+  position: absolute;
+  right: -100%;
+  z-index: 3;
+  top: 0px;
+}
+
+.message-sent .success-text {
+  display: block;
+}
+
+ .message-sent .send-btn {
+  background: rgb(26, 174, 114);
+}
+
+.message-sent .send-btn::before {
+  border-top: 2px solid rgb(255, 255, 255);
+  border-right: 2px solid rgb(255, 255, 255);
+  width: 17px;
+  height: 8px;
+  transform: rotate(135deg);
+  inset: 0px;
+  margin: 13px auto auto;
 }

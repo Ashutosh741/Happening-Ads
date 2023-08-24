@@ -1,0 +1,46 @@
+.heading{
+    color: #76306E;
+font-family: Roboto Slab;
+font-size: 30px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.mixture h6{
+    color: #000;
+font-family: Roboto Slab;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+margin-bottom: 0px;
+}
+
+.distance h6{
+    color: #000;
+font-family: Roboto Slab;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: uppercase;
+margin-bottom: 0px;
+}
+
+.save button{
+    color: #FFF;
+font-family: Roboto Slab;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+border-radius: 90px;
+background: #76306E;
+border: none;
+width: 98px;
+height: 33px;
+}
