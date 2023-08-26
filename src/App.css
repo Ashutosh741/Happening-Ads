@@ -284,12 +284,18 @@ border-bottom: solid 4px #ef1c74 !important;
 .footer .footerPaymentStyle .imageWrap{
   color : white
 }
+.footer .footerPaymentStyle {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-right: 4rem;
+}
 
 .footer{
-  padding: 144px 0px 40px;
+  padding: 90px 0px 40px;
   position: relative;
   background-image: linear-gradient(144deg, rgb(25, 36, 84), rgb(82, 94, 147));
-  margin-top: 5rem;
+  margin-top: 0rem;
 }
 
 .footer .footerPaymentTitle{
@@ -302,16 +308,72 @@ border-bottom: solid 4px #ef1c74 !important;
 }
 
 .footer .rightContent{
-  padding-left: 30px;
   width: 50%;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  padding-top: 5rem;
 }
 
+.footer .leftContent{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .qrImage{
+  width: 120px;
+  height: 120px;
+  /* margin-top: 1rem; */
+}
+.footer .qrImage img{
+  border-radius: 10px;
+}
+
+.footer .qrCode h6{
+  color: white;
+}
+
+.footer .qrCode{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer ::placeholder {
+  color: white;
+}
 
 .footer .rightContent h3{
   font-size: 26px;
   color: rgb(255, 255, 255);
   letter-spacing: 0.14px;
   margin: 0px 0px 4px;
+}
+
+.footer .send-btn:before{
+  content: "";
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  border-top: 2px solid rgb(0, 0, 0);
+  border-right: 2px solid rgb(0, 0, 0);
+  transform: rotate(45deg);
+  top: 14px;
+  right: 13px;
+}
+
+.footer .send-btn:after{
+  width: 16px;
+  height: 2px;
+  content: "";
+  position: absolute;
+  right: 13px;
+  top: 19px;
+  background: rgb(0, 0, 0);
 }
 
 .footer .rightContent  .totalDownloads {
@@ -321,6 +383,11 @@ border-bottom: solid 4px #ef1c74 !important;
   width: 100%;
   margin: 0px 0px 14px;
   font-weight: 400;
+}
+
+.footer .gPlay, .footer .applePlay{
+  width: 135px;
+  height: 135px;
 }
 
 .message-wrap{
@@ -413,4 +480,428 @@ input {
   transform: rotate(135deg);
   inset: 0px;
   margin: 13px auto auto;
+}
+.slick-prev {
+  left: 0% !important;
+  z-index: 1;
+}
+
+.slick-next {
+  right: 0% !important;
+  z-index: 1;
+}
+
+.slick-next:before, .slick-prev:before  {
+  /* font-size: 20px; */
+  opacity: .75;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  /* color: #fff; */
+}
+
+.slick-arrow{
+  position: absolute;
+  top: 50%;
+  height: 80px;
+  width: 40px;
+  background-color: #fff !important;
+  padding: 6px;
+  border-radius: 2px;
+  z-index: 1;
+  -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.1);
+  box-shadow: 0 5px 15px rgba(0,0,0,.1);
+  border: 1px solid #e0e0e0;
+}
+
+.banner .slick-arrow{
+  height: 55px;
+}
+
+.banner .slick-prev {
+  left: 0.5% !important;
+}
+
+.banner .slick-next {
+  right: 0.5% !important;
+}
+.slick-prev:before {
+  color: black;
+content: '←';
+
+}
+
+.slick-next:before {
+  color: black;
+
+}
+
+.deals .card_inner{
+  background-color: #fff;
+  -webkit-box-shadow: 0 9px 12px 0 rgba(0,0,0,.04);
+  box-shadow: 0 9px 12px 0 rgba(0,0,0,.04);
+  margin-bottom: 24px;
+  transition: .3s;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -ms-transition: all .3s ease;
+  -o-transition: .3s;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.deals .card_img{
+  position: relative;
+  width: 100%;
+  background-color: #b5b6b8;
+  padding-top: 60%;
+  overflow: hidden;
+}
+
+.deals .card_img >img{
+
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    border-top-right-radius: 3px;
+
+}
+
+.deals .card_favourite{
+  position: absolute;
+  top: 9px;
+  right: 9px;
+  background-color: #fff;
+  border-radius: 2px!important;
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: #ef534e;
+  padding: 0px 10px;
+}
+.deals .card_inner .companyLogo{
+  border-right: 1px solid #e0e0e0;
+  margin-right: 3px;
+  padding-right: 3px;
+  display: inline-block;
+  height: 30px;
+  max-width: 60px;
+}
+
+.deals span{
+  font-size: .8125em;
+  color: #999;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.deals .card_inner .card_rating_img{
+  background: url('./images/ratings.svg') 0 -162px/58px 175px no-repeat;
+  display: inline-block;
+  height: 10px;
+  width: 58px;
+  background-position: 0 -35px;
+  background-position-y: -35px;
+}
+
+.deals .card_inner .card_rating_value{
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1;
+  color: #333;
+  margin-left: 3px;
+}
+
+.deals .card_rating{
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 3px 6px 4px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  max-width: 160px;
+  height: 30px;
+  margin-bottom: 6px;
+}
+
+.deals .merchant_rating {
+  position: relative;
+  bottom: 16px;
+  left: 0px;
+  margin-right: 12px!important;
+}
+
+.deals .text_truncate{
+  width: 230px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bolder;
+}
+
+.deals .card_location{
+  max-height: 16px;
+  height: 16px;
+  overflow: hidden;
+  color: #999;
+  margin-bottom: 16px;
+  font-size: 13px;
+}
+
+.deals .card_option{
+  overflow: hidden;
+  max-height: 38px;
+  height: 38px;
+  font-size: 13px;
+  line-height: 1.4;
+  white-space: pre-wrap;
+  color: #666!important;
+}
+
+.deals .margin_reset{
+  border: none;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.deals .previous_price{
+  height: 13px;
+    max-height: 13px;
+    display: flex;
+    align-items: center;
+}
+
+.deals .card_pricing{
+  margin-top: 1rem;
+}
+
+.deals .previous_price{
+    font-size: 11px;
+    position: relative;
+    width: fit-content;
+}
+
+.deals .previous_price i{
+  font-size: 9px;
+}
+
+.deals .actual_price{
+  font-size: 1.2rem;
+}
+
+.deals .actual_price i{
+  display: flex;
+  justify-content: center;
+}
+.deals .actual_price span{
+  gap: 5px;
+  align-items: center;
+  color: #34a853!important;
+  font-size: 20px;
+}
+
+.deals .card_discount{
+  height: 33px;
+  max-height: 33px;
+}
+
+
+.deals .card_discount p {
+  background-color: #fff6f5!important;
+  border-radius: 2px;
+  padding: 3px 6px;
+  line-height: 18px;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 14px!important;
+  color: #ef534e!important;
+  
+  margin-top: 6px;
+
+}
+
+.deals .previous_reset{
+  position: absolute;
+  /* color: #999!important; */
+  border: 1px solid #999;
+  width: 100%;
+
+}
+
+.deals .card_inner:hover {
+  -webkit-box-shadow: 0 1px 25px rgba(153,153,153,.5);
+  box-shadow: 0 1px 25px rgba(153,153,153,.5);
+  -webkit-transform: translateY(-2px);
+  transform: translateY(-2px);
+}
+
+.deals .card_description{
+  padding: 1rem;
+}
+
+.deals .fashionHeading a{
+  text-decoration: none;
+  color: red;
+
+  font-size: 13px;
+}
+
+.quickbites .card_grid{
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+
+.quickbites a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.quickbites .card_grid_img {
+  position: relative;
+  padding-top: 150%;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.quickbites .card_grid_img>img {
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.quickbites .slick-arrow{
+  top: 40%;
+}
+
+.cashBackStores .coupons{
+    border-bottom: 0;
+    max-width: 200px;
+    width: 100%;
+    line-height: 40px;
+    font-size: 13px;
+    border-radius: 4px;
+    height: 40px;
+    padding: 0;
+    font-weight: 700;
+    white-space: nowrap;
+    display: block;
+    background: #f07431;
+    color: #ffffff;
+    margin: 0 auto;
+}
+
+.cashBackStores .coupons:after{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  background-image: radial-gradient(circle,#FFFFFF 10%,transparent 10.01%);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  transform: scale(10,10);
+  opacity: 0;
+  transition: transform .5s,opacity 1s;
+}
+
+.cashBackStores .cashbackTerms{
+  margin-top: 18px;
+  font-size: 13px;
+  color: #2196f3;
+  text-align: center;
+  cursor: pointer;
+}
+
+.cashBackStores .store_Card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cashBackStores .store_card {
+  background: #ffffff;
+  text-align: center;
+  width: 100%;
+  border-radius: 10px;
+  float: left;
+  height: 200px;
+  padding-bottom: 15px;
+  position: relative;
+}
+.cashBackStores .store_card img {
+  width: 120px !important;
+  height: 60px;
+  display: inline-block;
+  font-size: 13px;
+  overflow: hidden;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+
+.strikes .catdeal_bottom {
+  /* display: block; */
+  padding: 14px;
+  height: 57px;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.strikes .catdeal_timer {
+  float: left;
+  background: #da0325;
+  padding: 0 4px;
+  border-radius: 4px;
+  color: white;
+  margin-top: 3px;
+}
+
+.strikes .catdeal_bottom .catdeal_grab {
+  float: right;
+  min-width: 92px;
+  height: 29px;
+  line-height: 27px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 0 3px;
+  background: #f07431 !important;
+  color: #ffffff;
+  display: block !important;
+}
+
+.strikes .catDealImage{
+  width: 100%;
+  height: 160px;
+
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  cursor: pointer;
+}
+
+
+.strikes .catdeal{
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: #eae3e3 0 0 3px 1px;
+  height: 217px;
+  position: relative;
+  margin-top: 20px;
+  padding-left: 1rem;
+
 }

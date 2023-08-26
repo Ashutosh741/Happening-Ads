@@ -18,6 +18,15 @@ import Footwear from '../Pages/Footwear';
 import FormalForMen from '../Pages/FormalForMen';
 import Magician from '../Pages/Magician';
 import Footer2 from '../Pages/Footer2';
+import Deals from '../Pages/Deals';
+import QuickBites from '../Pages/QuickBites';
+import Banner from '../Pages/Banner';
+import TopCategory from '../Pages/TopCategory';
+import CashbackStores from '../Pages/CashbackStores';
+import Strikes from '../Pages/Strikes';
+import RakhiGift from '../Pages/RakhiGift';
+import AmazonOffer from '../Pages/AmazonOffer';
+import MyntraDeal from '../Pages/MyntraDeal';
 
 const Home = () => {
   const images = [Screen1, Screen2];
@@ -28,14 +37,26 @@ const Home = () => {
     <>
           {/* <TopHeader/> */}
           <Header/>
-          <Carousel Screen={images} /> {/* Use the correct prop name 'Screen' */}
+          {/* <Carousel Screen={images} /> */}
            {/* <Saving/> */}
-         <Categories/>
+          <Banner/>
+          <TopCategory/>
+          <CashbackStores/>
+          <Strikes/>
+          <RakhiGift/>
+          <QuickBites/>
+          <AmazonOffer/>
+
+          <MyntraDeal/>
+        <Deals/>
+
+         {/* <Categories/> */}
          <ProductAd/>
         <Footwear/>
         <FormalForMen/>
         <Magician/>
         <Footer2/>   
+
          {/* <FreeOnCode/>
           <TopBrands/>
           <Caraousel Screen={images2}/>

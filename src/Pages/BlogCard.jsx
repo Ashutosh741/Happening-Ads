@@ -11,7 +11,19 @@ import card5 from '../images/card5.webp'
 import card6 from '../images/card6.webp'
 import card7 from '../images/card7.webp'
 import card8 from '../images/card8.webp'
-import card9 from '../images/card9.webp'
+import card9 from '../images/blog2.webp'
+import card10 from '../images/blog3.webp'
+import card11 from '../images/blog4.webp'
+import card12 from '../images/blog5.webp'
+import card13 from '../images/blog6.webp'
+import card14  from '../images/blog7.webp'
+import card15 from '../images/blog8.webp'
+import card16 from '../images/blog9.webp'
+import card17 from '../images/card9.webp'
+import card18 from '../images/card1.webp'
+import card19 from '../images/card2.webp'
+import card20 from '../images/card3.webp'
+
 import bookmark from '../images/bookmark.svg'
 const BlogCard = () => {
   return (
@@ -74,7 +86,7 @@ const BlogCard = () => {
                                 <img src = {pinne} className='img-fluid w-100' />    
                             </a>
                         <div className="image_holder">
-                            <img src = {card1} className='img-fluid w-100'/>
+                            <img src = {card2} className='img-fluid w-100'/>
                         </div>
                         <div className="card_details">
                         <h6 className="category"><a>Entertainment</a></h6>
@@ -115,7 +127,7 @@ const BlogCard = () => {
                                 <img src = {pinne} className='img-fluid w-100' />    
                             </a>
                         <div className="image_holder">
-                            <img src = {card1} className='img-fluid w-100'/>
+                            <img src = {card3} className='img-fluid w-100'/>
                         </div>
                         <div className="card_details">
                         <h6 className="category"><a>Entertainment</a></h6>
@@ -156,7 +168,7 @@ const BlogCard = () => {
                                 <img src = {pinne} className='img-fluid w-100' />    
                             </a>
                         <div className="image_holder">
-                            <img src = {card1} className='img-fluid w-100'/>
+                            <img src = {card4} className='img-fluid w-100'/>
                         </div>
                         <div className="card_details">
                         <h6 className="category"><a>Entertainment</a></h6>
@@ -197,7 +209,7 @@ const BlogCard = () => {
                                 <img src = {pinne} className='img-fluid w-100' />    
                             </a>
                         <div className="image_holder">
-                            <img src = {card1} className='img-fluid w-100'/>
+                            <img src = {card5} className='img-fluid w-100'/>
                         </div>
                         <div className="card_details">
                         <h6 className="category"><a>Entertainment</a></h6>
@@ -238,7 +250,7 @@ const BlogCard = () => {
                                 <img src = {pinne} className='img-fluid w-100' />    
                             </a>
                         <div className="image_holder">
-                            <img src = {card1} className='img-fluid w-100'/>
+                            <img src = {card6} className='img-fluid w-100'/>
                         </div>
                         <div className="card_details">
                         <h6 className="category"><a>Entertainment</a></h6>
@@ -279,7 +291,7 @@ const BlogCard = () => {
                                 <img src = {pinne} className='img-fluid w-100' />    
                             </a>
                         <div className="image_holder">
-                            <img src = {card1} className='img-fluid w-100'/>
+                            <img src = {card7} className='img-fluid w-100'/>
                         </div>
                         <div className="card_details">
                         <h6 className="category"><a>Entertainment</a></h6>
@@ -320,7 +332,7 @@ const BlogCard = () => {
                                 <img src = {pinne} className='img-fluid w-100' />    
                             </a>
                         <div className="image_holder">
-                            <img src = {card1} className='img-fluid w-100'/>
+                            <img src = {card8} className='img-fluid w-100'/>
                         </div>
                         <div className="card_details">
                         <h6 className="category"><a>Entertainment</a></h6>
@@ -361,7 +373,7 @@ const BlogCard = () => {
                                 <img src = {pinne} className='img-fluid w-100' />    
                             </a>
                         <div className="image_holder">
-                            <img src = {card1} className='img-fluid w-100'/>
+                            <img src = {card9} className='img-fluid w-100'/>
                         </div>
                         <div className="card_details">
                         <h6 className="category"><a>Entertainment</a></h6>
@@ -402,7 +414,7 @@ const BlogCard = () => {
                                 <img src = {pinne} className='img-fluid w-100' />    
                             </a>
                         <div className="image_holder">
-                            <img src = {card1} className='img-fluid w-100'/>
+                            <img src = {card10} className='img-fluid w-100'/>
                         </div>
                         <div className="card_details">
                         <h6 className="category"><a>Entertainment</a></h6>
@@ -443,7 +455,7 @@ const BlogCard = () => {
                                 <img src = {pinne} className='img-fluid w-100' />    
                             </a>
                         <div className="image_holder">
-                            <img src = {card1} className='img-fluid w-100'/>
+                            <img src = {card11} className='img-fluid w-100'/>
                         </div>
                         <div className="card_details">
                         <h6 className="category"><a>Entertainment</a></h6>
@@ -484,7 +496,7 @@ const BlogCard = () => {
                                 <img src = {pinne} className='img-fluid w-100' />    
                             </a>
                         <div className="image_holder">
-                            <img src = {card1} className='img-fluid w-100'/>
+                            <img src = {card12} className='img-fluid w-100'/>
                         </div>
                         <div className="card_details">
                         <h6 className="category"><a>Entertainment</a></h6>
@@ -525,7 +537,7 @@ const BlogCard = () => {
                                 <img src = {pinne} className='img-fluid w-100' />    
                             </a>
                         <div className="image_holder">
-                            <img src = {card1} className='img-fluid w-100'/>
+                            <img src = {card13} className='img-fluid w-100'/>
                         </div>
                         <div className="card_details">
                         <h6 className="category"><a>Entertainment</a></h6>
@@ -566,7 +578,7 @@ const BlogCard = () => {
                                 <img src = {pinne} className='img-fluid w-100' />    
                             </a>
                         <div className="image_holder">
-                            <img src = {card1} className='img-fluid w-100'/>
+                            <img src = {card14} className='img-fluid w-100'/>
                         </div>
                         <div className="card_details">
                         <h6 className="category"><a>Entertainment</a></h6>
@@ -607,7 +619,7 @@ const BlogCard = () => {
                                 <img src = {pinne} className='img-fluid w-100' />    
                             </a>
                         <div className="image_holder">
-                            <img src = {card1} className='img-fluid w-100'/>
+                            <img src = {card15} className='img-fluid w-100'/>
                         </div>
                         <div className="card_details">
                         <h6 className="category"><a>Entertainment</a></h6>
@@ -649,7 +661,7 @@ const BlogCard = () => {
                                 <img src = {pinne} className='img-fluid w-100' />    
                             </a>
                         <div className="image_holder">
-                            <img src = {card1} className='img-fluid w-100'/>
+                            <img src = {card16} className='img-fluid w-100'/>
                         </div>
                         <div className="card_details">
                         <h6 className="category"><a>Entertainment</a></h6>
@@ -691,7 +703,7 @@ const BlogCard = () => {
                                 <img src = {pinne} className='img-fluid w-100' />    
                             </a>
                         <div className="image_holder">
-                            <img src = {card1} className='img-fluid w-100'/>
+                            <img src = {card17} className='img-fluid w-100'/>
                         </div>
                         <div className="card_details">
                         <h6 className="category"><a>Entertainment</a></h6>
@@ -733,7 +745,7 @@ const BlogCard = () => {
                                 <img src = {pinne} className='img-fluid w-100' />    
                             </a>
                         <div className="image_holder">
-                            <img src = {card1} className='img-fluid w-100'/>
+                            <img src = {card18} className='img-fluid w-100'/>
                         </div>
                         <div className="card_details">
                         <h6 className="category"><a>Entertainment</a></h6>
@@ -775,7 +787,7 @@ const BlogCard = () => {
                                 <img src = {pinne} className='img-fluid w-100' />    
                             </a>
                         <div className="image_holder">
-                            <img src = {card1} className='img-fluid w-100'/>
+                            <img src = {card19} className='img-fluid w-100'/>
                         </div>
                         <div className="card_details">
                         <h6 className="category"><a>Entertainment</a></h6>
@@ -817,7 +829,7 @@ const BlogCard = () => {
                                 <img src = {pinne} className='img-fluid w-100' />    
                             </a>
                         <div className="image_holder">
-                            <img src = {card1} className='img-fluid w-100'/>
+                            <img src = {card20} className='img-fluid w-100'/>
                         </div>
                         <div className="card_details">
                         <h6 className="category"><a>Entertainment</a></h6>
