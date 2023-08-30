@@ -9,9 +9,12 @@ import TopBrands from '../Pages/TopBrands';
 import HealthFitness from '../Pages/HealthFitness';
 import Sale from '../Pages/Sale';
 import Footer from '../Pages/Footer';
-import Screen1 from '../images/Rectangle 199.png'
-import Screen2 from '../images/Rectangle 199.png'
-import Screen3 from '../images/Rectangle 227.png'
+import Screen1 from '../images/banner11.jpeg'
+import Screen2 from '../images/banner12.jpeg'
+import Screen3 from '../images/banner13.jpeg'
+import Screen4 from '../images/banner14.jpeg'
+import Screen5 from '../images/banner15.jpeg'
+import Screen6 from '../images/banner16.jpeg'
 import Carousel from '../Pages/Caraousel';
 import ProductAd from '../Pages/ProductAd';
 import Footwear from '../Pages/Footwear';
@@ -29,31 +32,31 @@ import AmazonOffer from '../Pages/AmazonOffer';
 import MyntraDeal from '../Pages/MyntraDeal';
 
 const Home = () => {
-  const images = [Screen1, Screen2];
+  const images = [Screen1, Screen2, Screen3,Screen4,Screen5,Screen6];
 
-  const images2 = [Screen3, Screen3];
+  // const images2 = [Screen3, Screen3];
 
   return (
     <>
           {/* <TopHeader/> */}
           <Header/>
-          {/* <Carousel Screen={images} /> */}
+          <Carousel Screen={images} />
            {/* <Saving/> */}
           <Banner/>
           <TopCategory/>
           <CashbackStores/>
-          <Strikes/>
+          {/* <Strikes/> */}
           <RakhiGift/>
           <QuickBites/>
-          <AmazonOffer/>
+          {/* <AmazonOffer/> */}
 
           <MyntraDeal/>
         <Deals/>
 
          {/* <Categories/> */}
-         <ProductAd/>
+         {/* <ProductAd/>
         <Footwear/>
-        <FormalForMen/>
+        <FormalForMen/> */}
         <Magician/>
         <Footer2/>   
 

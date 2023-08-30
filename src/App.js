@@ -6,6 +6,7 @@ import {BrowserRouter , Routes ,Route} from "react-router-dom"
 import Fashion from './Routes/Fashion';
 import Fashion2 from './Routes/Fashion2';
 import Blog from './Routes/Blog';
+import Pharmacy from './Routes/Pharmacy';
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
       <Route path="/fashion" element={<Fashion/>} />
       <Route path="/fashion2" element={<Fashion2/>} />
       <Route path="/blog" element={<Blog/>} />
+      <Route path="/pharmacy" element={<Pharmacy/>} />
+
+
 
 
       

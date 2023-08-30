@@ -735,7 +735,7 @@ content: '←';
   -webkit-box-shadow: 0 1px 25px rgba(153,153,153,.5);
   box-shadow: 0 1px 25px rgba(153,153,153,.5);
   -webkit-transform: translateY(-2px);
-  transform: translateY(-2px);
+  transform: translateY(-12px);
 }
 
 .deals .card_description{
@@ -892,10 +892,13 @@ content: '←';
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   cursor: pointer;
+  overflow: hidden;
 }
 
 
 .strikes .catdeal{
+  overflow: hidden;
+
   background: #ffffff;
   border-radius: 10px;
   box-shadow: #eae3e3 0 0 3px 1px;
@@ -904,4 +907,306 @@ content: '←';
   margin-top: 20px;
   padding-left: 1rem;
 
+}
+
+.catDealImage:hover{
+  transform: scale(1.05);
+}
+
+.voucher_card{
+  text-decoration: none;
+  width: 236px;
+    cursor: pointer;
+    display: inline-block;
+    background: #fff;
+    vertical-align: top;
+    padding-right: 12px;
+    position: relative;
+    padding-left: 12px;
+    padding-top: 4px;
+}
+
+.voucher_rating{
+
+  background: #008a3b;
+  color: white;
+  border-radius: 40px;
+  padding: 0 4px 0 2px;
+  height: 24px;
+  border-radius: 20px;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  padding: 5px;
+}
+
+.voucher_card .home_delivery{
+  position: absolute;
+  bottom: -12px;
+  z-index: 1;
+  height: 24px;
+}
+
+.voucher_card .voucher_banner_holder{
+  height: 136px;
+  width: 100%;
+  object-fit: fill;
+  background-color: white;
+  position: relative;
+  border-radius: 20px;
+  margin-bottom: 16px;
+  box-shadow : 0 3px 8px 0 rgba(0,0,0,.12);
+  display: flex;
+  justify-content: center;
+
+}
+
+.voucher_card .voucher_banner{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.voucher_card .voucher_details{
+  width: 100%;
+  padding : 0 10px 10px 0;
+  text-align: left;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+
+}
+
+.voucher_details .voucher_merchant_name{
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+  color:black;
+  margin-bottom:  8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.voucher_details .voucher_locality{
+  min-height: 16px;
+  font-size: 14px;
+  line-height: 16px;
+  color : rgba(51,51,51,.8);
+  margin-bottom: 8px;
+}
+
+.voucher_details .voucher_percent{
+  display: inline-block;
+  position: relative;
+  width: max-content;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #6D6BED;
+  color: #fff;
+  font-size: 14px;
+  line-height: 14px;
+  padding : 4px 8px;
+  font-weight: bold;
+}
+
+
+.best_seller .trend_img{
+  border-radius: 25px;
+  max-height: 220px;
+}
+
+.best_seller .slick-next{
+  right: 2.5% !important;
+}
+
+.carousel_top .carousel-item img{
+  height: 350px !important;
+  object-fit: fill;
+}
+
+.health .subtitle{
+  position: absolute;
+  background-color: #6D6BED;
+  color : #fff;
+  padding : 4px 6px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 10px;
+  transform: translate(0px, 50px);
+  display: inline-block;     /*what is its use*/
+
+}
+
+
+.health img{
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+  border: 1px solid rgb(0,0,0,.3);
+}
+
+.health a{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.health{
+  margin-right: 1rem;
+}
+
+
+.quick_filters .q_filter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px
+
+}
+
+.quick_filters{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  gap : 12px;
+  overflow: hidden;
+  padding : 12px calc(12px + 10%);
+  width : 100%;
+  background-color: #fff;
+  z-index: 9;
+  box-shadow: 0px 5px 12px rgb(55 62 125 / 8%);
+  position: sticky;
+  top : 70px
+}
+
+
+.q_filter.sort, .q_filter.active{
+  background-color: #6561E8;
+  color : #fff !important;
+  font-weight: bold;
+  border-color: #6561E8;
+  
+}
+
+.quick_filters .filter_logo{
+  width: 18px;
+  height: 18px;
+}
+
+.quick_filters .q_filter{
+  display: flex;
+  min-width: max-content;
+  align-items: center;
+  gap: .6666667em;
+  color: #4f4f4f;
+  font-size: 12px;
+  line-height: 1.333333em;
+  padding: .6666667em;
+  border: .5px solid #e8e8e8;
+  border-radius: .6666667em;
+}
+
+.infinite_load_container {
+  box-shadow: 0px 5px 12px rgb(55 62 125 / 8%);
+
+}
+
+.store_result_container .store_card:hover{
+  box-shadow: 0 4px 8px 2px rgba(0,0,0,.12);
+}
+
+.store_result_container .store_card{
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  cursor: pointer;
+  border: 1px solid rgba(0,0,0,.12);
+  padding: 8px;
+  border-radius: 20px;
+  justify-self: center;
+  max-width: 420px;
+  margin: 10px;
+}
+
+.store_result_container .store_image_holder{
+  width: 36%;
+  min-width: 36%;
+  min-height: 90px;
+  max-height: 120px;
+  display: block;
+  position: relative;
+  /* what is use of min height and max height in css is it necessary  to give */
+}
+.store_result_container .store_image_holder img{
+  border-radius: 20px;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  min-height: 90px;
+  max-height: 120px;
+  object-fit: contain;
+}
+
+.info_container .rows{
+  display: flex;
+  padding : 2px 0;
+}
+
+.row_1 .name {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  color: #191C32;
+  word-break: break-word;
+} 
+
+.row_1 .save_message {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 600;
+  color: #6561E8;
+  display: flex;
+  align-items: center;
+  min-width: max-content;
+  gap: 2px;
+}
+
+.rows.row_2, .rows.row_3, .rows.row_4 {
+  font-size: 14px;
+  line-height: 20px;
+  color: #A0A0A0;
+  min-height: 14px;
+}
+
+.store_card .rating_divider {
+  /* display: flex;
+  align-items: center; */
+}
+.rating_divider .divide{
+  /* border: 1px solid #F5F5F5; */
+}
+
+.info_container .rows.row_1 {
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.store_card{
+  width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    cursor: pointer;
+    border: 1px solid rgba(0,0,0,.12);
+    padding: 8px;
+    border-radius: 20px;
+    justify-self: center;
+    max-width: 420px;
 }

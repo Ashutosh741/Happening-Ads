@@ -15,7 +15,7 @@ const HealthFitness = () => {
         dots: false,
         infinite: true,
         speed: 2000,
-        slidesToShow: 6,
+        slidesToShow: 5,
         slidesToScroll: 1,
         autoplay : true
       };
@@ -52,7 +52,7 @@ const HealthFitness = () => {
                         <div className="p-2">
                         <div className="card_wrapper  d-flex justify-content-center flex-column">
                         <div className="card_img">
-                            <img src = {Item1} className='img-fluid'/>
+                            <img src = {Item2} className='img-fluid'/>
                         </div>
 
                         <div className="card_name">
@@ -69,6 +69,84 @@ const HealthFitness = () => {
                     </div>
                         </div>        
 
+                        <div className="p-2">
+                        <div className="card_wrapper  d-flex justify-content-center flex-column">
+                        <div className="card_img">
+                            <img src = {Item2} className='img-fluid'/>
+                        </div>
+
+                        <div className="card_name">
+                            <h6>Healthifyme- Coupons and offers</h6>
+                        </div>
+                        <div className="card_desc">
+                            <h6>
+                            HealthifyMe is an online brand that provides personalized health and fitness solutions.<span className='read_more'>More....</span>
+                            </h6>
+                        </div>
+                        <div className="save text-end">
+                                <button>Save 32%</button>
+                            </div>
+                    </div>
+                        </div>  
+                        <div className="p-2">
+                        <div className="card_wrapper  d-flex justify-content-center flex-column">
+                        <div className="card_img">
+                            <img src = {Item2} className='img-fluid'/>
+                        </div>
+
+                        <div className="card_name">
+                            <h6>Healthifyme- Coupons and offers</h6>
+                        </div>
+                        <div className="card_desc">
+                            <h6>
+                            HealthifyMe is an online brand that provides personalized health and fitness solutions.<span className='read_more'>More....</span>
+                            </h6>
+                        </div>
+                        <div className="save text-end">
+                                <button>Save 32%</button>
+                            </div>
+                    </div>
+                        </div>  
+
+                        <div className="p-2">
+                        <div className="card_wrapper  d-flex justify-content-center flex-column">
+                        <div className="card_img">
+                            <img src = {Item2} className='img-fluid'/>
+                        </div>
+
+                        <div className="card_name">
+                            <h6>Healthifyme- Coupons and offers</h6>
+                        </div>
+                        <div className="card_desc">
+                            <h6>
+                            HealthifyMe is an online brand that provides personalized health and fitness solutions.<span className='read_more'>More....</span>
+                            </h6>
+                        </div>
+                        <div className="save text-end">
+                                <button>Save 32%</button>
+                            </div>
+                    </div>
+                        </div>  
+
+                        <div className="p-2">
+                        <div className="card_wrapper  d-flex justify-content-center flex-column">
+                        <div className="card_img">
+                            <img src = {Item2} className='img-fluid'/>
+                        </div>
+
+                        <div className="card_name">
+                            <h6>Healthifyme- Coupons and offers</h6>
+                        </div>
+                        <div className="card_desc">
+                            <h6>
+                            HealthifyMe is an online brand that provides personalized health and fitness solutions.<span className='read_more'>More....</span>
+                            </h6>
+                        </div>
+                        <div className="save text-end">
+                                <button>Save 32%</button>
+                            </div>
+                    </div>
+                        </div>  
                     </Slider>
 
                 </Col>

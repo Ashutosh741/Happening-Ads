@@ -23,7 +23,7 @@ const AmazonOffer = () => {
   return (
     <section className='strikes'>
         <div className="heading d-flex justify-content-start mt-5 ms-3 mb-3">
-            <h1 className='fw-bold'>AMAZON - TOP OFFERS</h1>
+            <h1 className='fw-bold'>HAPPENING ADS - TOP OFFERS</h1>
         </div>
         <Slider {...settings}>
             <div className="catdeal">

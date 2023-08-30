@@ -26,14 +26,15 @@ import cashback19 from '../images/cashback19.png'
 
 const CashbackStores = () => {
     const settings = {
-        className: "center",
-        centerMode: true,
+        // className: "center",
+        // centerMode: true,
         infinite: true,
-        centerPadding: "60px",
-        slidesToShow: 3,
+        // centerPadding: "60px",
+        slidesToShow: 5,
+        sliedsToScroll : 5,
         speed: 500,
-        rows: 2,
-        slidesPerRow: 2,
+        // rows: 2,
+        // slidesPerRow: 2,
         // autoplay:  true,
 
     }

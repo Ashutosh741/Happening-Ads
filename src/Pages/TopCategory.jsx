@@ -21,8 +21,8 @@ const TopCategory = () => {
     const settings = {
         dots : false,
         speed : 500,
-        slidesToShow : 6,
-        slidesToScroll : 6,
+        slidesToShow : 8,
+        slidesToScroll :8,
         autoplay : true,
         infinte : true,
     }
