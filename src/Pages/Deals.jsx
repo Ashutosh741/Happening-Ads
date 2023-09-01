@@ -62,7 +62,7 @@ const Deals = () => {
                             <a className=''>View all offers▶️</a>
                     </div>
                     <Slider  {...settings}>
-                        <div className="p-4">
+                        <div className="p-2">
                         <div className="card_inner  d-flex justify-content-center flex-column">
                        <a>
                         <div className="card_img">
@@ -112,7 +112,7 @@ const Deals = () => {
                        </a>
                     </div>
                         </div>
-                        <div className="p-4">
+                        <div className="p-2">
                         <div className="card_inner  d-flex justify-content-center flex-column">
                        <a>
                         <div className="card_img">
@@ -162,7 +162,7 @@ const Deals = () => {
                        </a>
                     </div>
                         </div>
-                        <div className="p-4">
+                        <div className="p-2">
                         <div className="card_inner  d-flex justify-content-center flex-column">
                        <a>
                         <div className="card_img">
@@ -212,7 +212,7 @@ const Deals = () => {
                        </a>
                     </div>
                         </div>
-                        <div className="p-4">
+                        <div className="p-2">
                         <div className="card_inner  d-flex justify-content-center flex-column">
                        <a>
                         <div className="card_img">
@@ -262,7 +262,7 @@ const Deals = () => {
                        </a>
                     </div>
                         </div>
-                        <div className="p-4">
+                        <div className="p-2">
                         <div className="card_inner  d-flex justify-content-center flex-column">
                        <a>
                         <div className="card_img">

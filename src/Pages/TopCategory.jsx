@@ -9,7 +9,6 @@ import category3 from '../images/category3.png'
 import category4 from '../images/category4.png'
 import category5 from '../images/category5.png'
 import category6 from '../images/category6.png'
-import category7 from '../images/category7.png'
 import category8 from '../images/category8.png'
 import category9 from '../images/category9.png'
 import category10 from '../images/category10.png'
@@ -21,8 +20,8 @@ const TopCategory = () => {
     const settings = {
         dots : false,
         speed : 500,
-        slidesToShow : 8,
-        slidesToScroll :8,
+        slidesToShow : 7,
+        slidesToScroll :7,
         autoplay : true,
         infinte : true,
     }
@@ -32,44 +31,41 @@ const TopCategory = () => {
                         <h1 className='fw-bold'>TOP CATEGORIES</h1>
                     </div>
                     <Slider {...settings}>
-                        <div className="category_images p-2">
+                        <div className="category_images">
                             <img src = {category1} className='img-fluid w-100' />
                         </div>
-                        <div className="category_images p-2">
+                        <div className="category_images">
                             <img src = {category2} className='img-fluid w-100' />
                         </div>
-                        <div className="category_images p-2">
+                        <div className="category_images">
                             <img src = {category3} className='img-fluid w-100' />
                         </div>
-                        <div className="category_images p-2">
+                        <div className="category_images">
                             <img src = {category4} className='img-fluid w-100' />
                         </div>
-                        <div className="category_images p-2">
+                        <div className="category_images">
                             <img src = {category5} className='img-fluid w-100' />
                         </div>
 
 
-                        <div className="category_images p-2">
+                        <div className="category_images">
                             <img src = {category6} className='img-fluid w-100' />
                         </div>
-                        <div className="category_images p-2">
-                            <img src = {category7} className='img-fluid w-100' />
-                        </div>
-                        <div className="category_images p-2">
+                        <div className="category_images">
                             <img src = {category8} className='img-fluid w-100' />
                         </div>
-                        <div className="category_images p-2">
+                        <div className="category_images">
                             <img src = {category9} className='img-fluid w-100' />
                         </div>
-                        <div className="category_images p-2">
+                        <div className="category_images">
                             <img src = {category10} className='img-fluid w-100' />
                         </div>
-                        <div className="category_images p-2">
+                        <div className="category_images">
                             <img src = {category11} className='img-fluid w-100' />
                         </div>
 
 
-                        <div className="category_images p-2">
+                        <div className="category_images">
                             <img src = {category12} className='img-fluid w-100' />
                         </div>
 

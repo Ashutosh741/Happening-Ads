@@ -20,7 +20,7 @@ const Banner = () => {
     infinite : true,    
   }
   return (
-    <section className='banner'>
+    <section className='banner mt-5'>
         <Slider {...settings}>
             <div className="banner-image p-1 border-0">
               <img src = {banner1} className='img-fluid w-100' />

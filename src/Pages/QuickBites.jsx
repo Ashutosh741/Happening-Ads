@@ -24,7 +24,7 @@ const QuickBites = () => {
   return (
     <section className='quickbites'>
 
-                <div className="fashionHeading ms-3 mt-5 d-flex justify-content-start align-items-center gap-3">
+                <div className="fashionHeading ms-3 mt-3 d-flex justify-content-start align-items-center gap-3">
                             <h4>QUICK BITES 🍔</h4>
                     </div>
 

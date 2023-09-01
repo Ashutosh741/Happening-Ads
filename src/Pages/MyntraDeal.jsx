@@ -22,7 +22,7 @@ const MyntraDeal = () => {
     }
   return (
     <section className='strikes'>
-        <div className="heading d-flex justify-content-start mt-5 ms-3 mb-3">
+        <div className="heading d-flex justify-content-start ms-3">
             <h1 className='fw-bold'>MYNTRA - TOP DEALS</h1>
         </div>
         <Slider {...settings}>

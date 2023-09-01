@@ -37,7 +37,8 @@ const QuickFilters = () => {
     <section className=' infinite_load_container'>
         <Container>
             <Row>
-                <Col md = '12'>
+                {/* <Col md = '12'> */}
+
                     <div className="quick_filters">
                         <span className="q_filter sort">
                             <img src = {Arrows} className='img-fluid filter_logo'/>
@@ -55,7 +56,7 @@ const QuickFilters = () => {
                             <img src = {Pay} className='img-fluid filter_logo'/>
                             magicPay
                         </span>
-                        <button type="button" className="btn btn-primary q_filter" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <button type="button" className="btn  q_filter" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             Distance
                             <img src = {DownArrow} className='img-fluid filter_logo'/>
                         </button>
@@ -514,7 +515,7 @@ const QuickFilters = () => {
                         </div>
                     </Col>
                     </Row>
-                </Col>
+                {/* </Col> */}
             </Row>
         </Container>
     </section>

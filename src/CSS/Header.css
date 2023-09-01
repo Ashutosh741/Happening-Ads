@@ -1,5 +1,11 @@
 .logo{
-    width: 150px;
+    width: 130px;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+    transition-timing-function: ease-in-out;
 }
 
 .facebook .instagram .linkedin .twitter{

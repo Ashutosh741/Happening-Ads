@@ -40,7 +40,7 @@ const CashbackStores = () => {
     }
   return (
     <section className='cashBackStores'>
-        <div className="heading d-flex justify-content-start mt-5 ms-3 mb-3">
+        <div className="heading d-flex justify-content-start mt-3 ms-3 mb-3">
             <h1 className='fw-bold'>TOP CASHBACK STORES</h1>
         </div>
         <Slider {...settings}>

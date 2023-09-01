@@ -58,7 +58,7 @@ border-bottom: solid 4px #ef1c74 !important;
 
 
 .blogCard .card_wrapper{
-  padding : 10px;
+  padding : 0px;
   border-radius: 8px;
   box-shadow: 0 3px 8px 0 rgba(0,0,0,.12);
   position: relative;
@@ -98,11 +98,13 @@ border-bottom: solid 4px #ef1c74 !important;
 .blogCard .card_wrapper .card_details{
   position: relative;
   color: rgba(0,0,0,.54);
+  padding: 10px;
 }
 
 .blogCard .card_wrapper .category{
   position : absolute;
   padding: 4px 8px;
+  left: 0px;
   background-color: black;
   color: white;
   border-top-right-radius: 20px;
@@ -905,12 +907,14 @@ content: '←';
   height: 217px;
   position: relative;
   margin-top: 20px;
-  padding-left: 1rem;
+  /* padding-left: 1rem; */
 
 }
 
 .catDealImage:hover{
-  transform: scale(1.05);
+  transform: scale(1.1);
+  transition: 0.4s;
+  transition-timing-function: ease-in-out;
 }
 
 .voucher_card{
@@ -1023,9 +1027,24 @@ content: '←';
 }
 
 .carousel_top .carousel-item img{
-  height: 350px !important;
-  object-fit: fill;
+  /* height: 420px !important; */
+  object-fit: cover;
+
 }
+
+.slick-initialized .slick-slide {
+  display: block;
+  padding: 0.3rem;
+}
+
+/* .banner .carousel-inner > .item {
+  position: relative;
+  display: none;
+  -webkit-transition: 0.6s ease-in-out left;
+  -moz-transition: 0.6s ease-in-out left;
+  -o-transition: 0.6s ease-in-out left;
+  transition: 0.6s ease-in-out left;
+} */
 
 .health .subtitle{
   position: absolute;
@@ -1111,10 +1130,6 @@ content: '←';
   border-radius: .6666667em;
 }
 
-.infinite_load_container {
-  box-shadow: 0px 5px 12px rgb(55 62 125 / 8%);
-
-}
 
 .store_result_container .store_card:hover{
   box-shadow: 0 4px 8px 2px rgba(0,0,0,.12);
@@ -1132,6 +1147,7 @@ content: '←';
   justify-self: center;
   max-width: 420px;
   margin: 10px;
+  background-color: white;
 }
 
 .store_result_container .store_image_holder{
@@ -1199,7 +1215,7 @@ content: '←';
 }
 
 .store_card{
-  width: 100%;
+    width: 100%;
     display: flex;
     gap: 10px;
     align-items: flex-start;
@@ -1209,4 +1225,239 @@ content: '←';
     border-radius: 20px;
     justify-self: center;
     max-width: 420px;
+}
+
+body{
+  background-color: #eceef4;
+}
+
+.store_body .row_1{
+  display: flex;
+  align-items: start;
+  gap: 10px;  
+}
+
+.store_body .voucher_rating{
+  position:static  !important;;
+}
+
+.store_body .visits, .store_body .name,.store_body .location, .store_body .kind{
+  white-space: nowrap;
+}
+
+.store_body .rating{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  flex-direction: column;
+}
+
+.store_body .details>p{
+  font-size: 12px;
+}
+
+.store_body .rating .visits{
+  font-size: 12px;
+  color: #999;
+}
+
+.store_body .row_1 img{
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.store_body .row_2 .about{
+  font-size: 14px;
+}
+
+.store_body .happening_offer .offer_text{
+  color: #821dff;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.store_body .happening_offer .order_btn .btn{
+  color: #fff;
+  padding: 4px 8px;
+  width: 90px;
+  background: #821dff;
+  border: none;
+  font-size: 12px;
+}
+
+.store_body .happening_offer{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+}
+
+.store_body .happening_offer .order_placed h6{
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+
+.store_body .coupon_offer_holder .offer_title{
+  font-size: 16px;
+    color: #2e108e;
+}
+
+.store_body .coupon_offer_holder .btn{
+  font-size : 12px;
+}
+
+.store_body .call h5,.store_body .location h5{
+  font-size: 16px;
+  font-weight: bolder;
+  margin-bottom: 0px;
+  cursor: pointer;
+}
+
+.store_body .call span{
+  color: #00bfa5;
+  font-size: 14px;
+}
+
+.store_body .location span{
+  font-size: 14px;
+}
+
+.store_body .location a{
+    font-size: 14px;
+    color: #ef1c74;
+}
+
+.store_body .verification{
+  font-size: 14px;
+  padding: 4px 0;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.store_body .cuisines{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.store_body .cuisines .cuisine{
+  border-radius: 4px;
+  background-color: rgba(0, 172, 183, 0.4);
+  font-size: 12px;
+  margin-bottom: 0px;
+  white-space: nowrap;
+  
+  /* margin-top: 8px;
+  margin-right: 8px; */
+  width: fit-content;
+  padding: 6px 12px;
+}
+
+.store_body .cuisines .more_text{
+  font-size: 12px;
+  border: 1px solid rgba(0,0,0,.12);
+  padding: 6px;
+  border-radius: 4px;
+  color: #ef1c74;
+  cursor: pointer;
+  margin-right: 8px;
+  margin-top: 4px;
+}
+
+
+.store_body .popular_searches h3{
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.store_body .most_searches{
+  border-radius: 8px;
+  background-color: white;
+  font-size: 12px;
+  margin-top: 8px;
+  margin-right: 8px;
+  color: #6561E8;
+  border: 1px solid #6561E8;
+  cursor: pointer;
+  padding: 4px 12px;
+  text-decoration: none;
+}
+
+.store_body .search_holder{
+  display: flex;
+  margin-top: 1rem;
+  align-items: center;
+  justify-content: center;
+  gap:10px
+}
+
+.store_body .search_holder .search_img{
+  vertical-align: middle;
+  border: 1px solid rgba(0,0,0,.12);
+  border-radius: 50%;
+  padding: 6px;
+  width: 48px;
+  height: 48px;
+}
+
+.store_body .search_holder article{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home_delivery img{
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.home_delivery  .tablet_details .name{
+  font-size: 16px;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
+}
+
+.home_delivery  .tablet_details .desc{
+  font-size: 12px;
+  height: 31px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 8px;
+}
+
+.home_delivery  .tablet_details .price_holder{
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+
+.home_delivery  .tablet_details .price_holder .display_price{
+  text-decoration: line-through;
+  margin-right: 5px;
+
+}
+
+.home_delivery  .tablet_details .price_holder .actual_price{
+  color: black;
+  font-weight: bolder;
+}
+
+.home_delivery  a{
+  text-decoration: none;
+  color: black;
+}
+
+.home_delivery .heading{
+  font-size: 16px;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+
+.home_delivery .order_btn .btn{
+  color : #ef1c74;
+  border-color: #ef1c74;
+  font-size: 14px;
+  font-weight: bold;
 }
