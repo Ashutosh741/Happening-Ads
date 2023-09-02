@@ -930,7 +930,7 @@ content: '←';
     padding-top: 4px;
 }
 
-.voucher_rating{
+.essential .voucher_rating{
 
   background: #008a3b;
   color: white;
@@ -938,10 +938,12 @@ content: '←';
   padding: 0 4px 0 2px;
   height: 24px;
   border-radius: 20px;
-  position: absolute;
   top: 12px;
   right: 12px;
   padding: 5px;
+  position: absolute;
+  gap: 5px;
+  font-size: 12px;
 }
 
 .voucher_card .home_delivery{
@@ -1237,8 +1239,21 @@ body{
   gap: 10px;  
 }
 
-.store_body .voucher_rating{
-  position:static  !important;;
+.store_body .row_1 .voucher_rating{
+  
+  width: 56px;
+  height: 24px;
+  border-radius: 20px;
+  background-color: #8bcc00;
+  border-color: #8bcc00;
+  padding: 2px 3px;
+  color: white;
+  gap: 5px;
+}
+
+.store_body .voucher_rating .voucher_star{
+  /* position:static  !important;; */
+  font-size: 12px;
 }
 
 .store_body .visits, .store_body .name,.store_body .location, .store_body .kind{
@@ -1409,6 +1424,7 @@ body{
 .home_delivery img{
   border-radius: 8px;
   object-fit: cover;
+  height: 80px;
 }
 
 .home_delivery  .tablet_details .name{
@@ -1453,6 +1469,7 @@ body{
   font-size: 16px;
   font-weight: bolder;
   margin-bottom: 1rem;
+  color: black;
 }
 
 .home_delivery .order_btn .btn{
@@ -1460,4 +1477,145 @@ body{
   border-color: #ef1c74;
   font-size: 14px;
   font-weight: bold;
+}
+.home_delivery .order_btn .btn:hover{
+  color: white;
+  background: #ef1c74;
+  transition: 0.7s ease-in-out;
+}
+.online_shopping .row_1{
+  display : flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.online_shopping .row_1 h5{
+  font-size: 14px;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.online_shopping .row_1 h6{
+  font-size: 12px;
+  cursor: pointer;
+  color: #ef1c74;
+}
+
+.online_shopping .online_store_card .cuisines{
+  font-size: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  color: rgba(0, 0, 0, 0.54);
+  text-overflow: ellipsis;
+  cursor: pointer;;
+}
+
+.online_shopping .online_store_card .items{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  gap: 0px;
+  margin: 10px;
+}
+
+.online_shopping .online_store_card .items .image img{
+  height: 80px !important;
+  cursor: pointer;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.online_shopping .online_store_card .items .name{
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.online_shopping .online_store_card .items .offer_text{
+  color: #821dff;
+  margin-top: 4px;
+  font-size: 12px;
+}
+
+.rating_reviews .rating_heading{
+  font-size: 16px;
+  color: black;
+  margin-bottom: 16px;
+  margin-top: 8px;
+
+}
+
+
+.rating_reviews .rating_value{
+  font-size: 30px;
+  font-weight: bold;
+  color : #00ae28;
+}
+
+.rating_reviews .rating_total{
+  font-size: 20px;
+  color: #d3d5de;
+}
+
+
+.rating_reviews .claims_title{
+  font-size: 12px;
+  font-weight: bold;
+  white-space: nowrap;
+  margin-top: 1rem;
+}
+
+
+.rating_reviews .see_more img{
+    width: 20px !important;
+}
+
+.rating_reviews .rating_header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.rating_reviews .rating_header .see_more{
+  width: 100%;
+  text-align: end;
+}
+
+.rating_reviews .people_holder .username{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:10px
+}
+
+.rating_reviews .people_holder .username img{
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.rating_reviews .people_holder .username .followers{
+  font-size: 12px;
+}
+
+.rating_reviews .people_holder .username .date{
+  width: 100%;
+  text-align: end;
+  font-size: 12px;
+}
+
+.rating_reviews .people_holder .rating_holder{
+  font-size: 14px;
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.rating_reviews .people_holder .review{
+
 }

@@ -12,6 +12,20 @@ import tablet2 from '../images/tablet2.webp'
 import tablet3 from '../images/tablet3.webp'
 import tablet4 from '../images/tablet4.webp'
 import tablet5 from '../images/tablet5.webp'
+import online1 from '../images/online1.webp'
+import online2 from '../images/online2.jpg'
+import online3 from '../images/online3.png'
+import online4 from '../images/online4.png'
+import online5 from '../images/online5.png'
+import online6 from '../images/online6.jpg'
+import online7 from '../images/online7.jpg'
+import online8 from '../images/online8.png'
+import online9 from '../images/online9.jpg'
+import online10 from '../images/online10.png'
+import leftArrow from '../images/left_arrow.svg'
+import newuser from '../images/user.webp'
+import star from '../images/star.svg'
+import Essential from './Essential'
 
 const StoreBody = () => {
   return (
@@ -222,15 +236,242 @@ const StoreBody = () => {
             </div>
 
           </Col>
-          {/* <Col md = '4'>
-            <div className="card">
+          <Col md = '4'>
+            <div className="card mt-3 shadow">
               <div className="card-body">
                 <div className="online_shopping">
-                  
+                  <div className="row_1">
+                    <h5>Enjoy savings on shopping online</h5>
+                    <h6>VIEW ALL</h6>
+                  </div>
+                  <section className="online_store_card">
+                    <Container fluid>
+                      <Row>
+                        <Col md = '6'>
+                            <div className="items">
+                                <div className="image">
+                                  <img src = {online1} className='img-fluid'/>
+                                </div>
+                                <h3 className="name mb-0">Domino's Pizza</h3>
+                                <h6 className="cuisines mb-0">Quick Bites</h6>
+                                <div className="offer_text">
+                                  <img src = {pay} className='img-fluid'/> Save 15%
+                                </div>
+                            </div>
+                        </Col>
+                        <Col md = '6'>
+                            <div className="items">
+                                <div className="image">
+                                  <img src = {online2} className='img-fluid'/>
+                                </div>
+                                <h3 className="name mb-0">Domino's Pizza</h3>
+                                <h6 className="cuisines mb-0">Quick Bites</h6>
+                                <div className="offer_text">
+                                  <img src = {pay} className='img-fluid'/> Save 15%
+                                </div>
+                            </div>
+                        </Col>
+                        <Col md = '6'>
+                            <div className="items">
+                                <div className="image">
+                                  <img src = {online3} className='img-fluid'/>
+                                </div>
+                                <h3 className="name mb-0">Domino's Pizza</h3>
+                                <h6 className="cuisines mb-0">Quick Bites</h6>
+                                <div className="offer_text">
+                                  <img src = {pay} className='img-fluid'/> Save 15%
+                                </div>
+                            </div>
+                        </Col>
+                        <Col md = '6'>
+                            <div className="items">
+                                <div className="image">
+                                  <img src = {online4} className='img-fluid'/>
+                                </div>
+                                <h3 className="name mb-0">Domino's Pizza</h3>
+                                <h6 className="cuisines mb-0">Quick Bites</h6>
+                                <div className="offer_text">
+                                  <img src = {pay} className='img-fluid'/> Save 15%
+                                </div>
+                            </div>
+                        </Col>
+                        <Col md = '6'>
+                            <div className="items">
+                                <div className="image">
+                                  <img src = {online5} className='img-fluid'/>
+                                </div>
+                                <h3 className="name mb-0">Domino's Pizza</h3>
+                                <h6 className="cuisines mb-0">Quick Bites</h6>
+                                <div className="offer_text">
+                                  <img src = {pay} className='img-fluid'/> Save 15%
+                                </div>
+                            </div>
+                        </Col>
+                        <Col md = '6'>
+                            <div className="items">
+                                <div className="image">
+                                  <img src = {online6} className='img-fluid'/>
+                                </div>
+                                <h3 className="name mb-0">Domino's Pizza</h3>
+                                <h6 className="cuisines mb-0">Quick Bites</h6>
+                                <div className="offer_text">
+                                  <img src = {pay} className='img-fluid'/> Save 15%
+                                </div>
+                            </div>
+                        </Col>
+                        <Col md = '6'>
+                            <div className="items">
+                                <div className="image">
+                                  <img src = {online7} className='img-fluid'/>
+                                </div>
+                                <h3 className="name mb-0">Domino's Pizza</h3>
+                                <h6 className="cuisines mb-0">Quick Bites</h6>
+                                <div className="offer_text">
+                                  <img src = {pay} className='img-fluid'/> Save 15%
+                                </div>
+                            </div>
+                        </Col>
+                        <Col md = '6'>
+                            <div className="items">
+                                <div className="image">
+                                  <img src = {online8} className='img-fluid'/>
+                                </div>
+                                <h3 className="name mb-0">Domino's Pizza</h3>
+                                <h6 className="cuisines mb-0">Quick Bites</h6>
+                                <div className="offer_text">
+                                  <img src = {pay} className='img-fluid'/> Save 15%
+                                </div>
+                            </div>
+                        </Col>
+                        <Col md = '6'>
+                            <div className="items">
+                                <div className="image">
+                                  <img src = {online9} className='img-fluid'/>
+                                </div>
+                                <h3 className="name mb-0">Domino's Pizza</h3>
+                                <h6 className="cuisines mb-0">Quick Bites</h6>
+                                <div className="offer_text">
+                                  <img src = {pay} className='img-fluid'/> Save 15%
+                                </div>
+                            </div>
+                        </Col>
+                        <Col md = '6'>
+                            <div className="items">
+                                <div className="image">
+                                  <img src = {online10} className='img-fluid'/>
+                                </div>
+                                <h3 className="name mb-0">Domino's Pizza</h3>
+                                <h6 className="cuisines mb-0">Quick Bites</h6>
+                                <div className="offer_text">
+                                  <img src = {pay} className='img-fluid'/> Save 15%
+                                </div>
+                            </div>
+                        </Col>
+
+                    </Row>
+                    </Container>
+
+                  </section>
+
                 </div>
               </div>
             </div>
-          </Col> */}
+          </Col>
+          <Col md = '4'>
+            <div className="card">
+              <div className="card-body">
+                <section className="rating_reviews">
+                    <h4 className='rating_heading'>Ratings & Reveiws</h4>
+                    <div className="rating_header">
+                      <div className="rating_value">
+                        5.0
+                        <span className="rating_total">/5</span>
+                      </div>
+                      <h6 className="claims_title">Rating based on 11 claims</h6>
+                      <a className='see_more'>
+                        <img src = {leftArrow} className='img-fluid' />
+                      </a>
+
+                    </div>
+                    <hr/>
+
+                    <div className="people_holder">
+                          <section className="username">
+                            <img src = {newuser} className='img-fluid' />
+                            <div className="info">
+                              <p className="name mb-0 fw-bold">Ekta Gupta</p>
+                              <p className="followers mb-0">7 Followers</p>
+                            </div>
+                            <p className="date">02 Sept 2023</p>
+                          </section>
+                          <div className="rating_holder">
+                            <div className="stars">
+                            <img src = {star} className='img-fluid'/>
+                            <img src = {star} className='img-fluid'/>
+                            <img src = {star} className='img-fluid'/>
+                            <img src = {star} className='img-fluid'/>
+                            <img src = {star} className='img-fluid'/>
+                            </div>
+                            <p className="type mb-0">Order Rating</p>
+                          </div>
+                          <p className="review mt-3">Very Good</p>
+                          <hr/>
+                    </div>
+                    <div className="people_holder">
+                          <section className="username">
+                            <img src = {newuser} className='img-fluid' />
+                            <div className="info">
+                              <p className="name mb-0 fw-bold">Ekta Gupta</p>
+                              <p className="followers mb-0">7 Followers</p>
+                            </div>
+                            <p className="date">02 Sept 2023</p>
+                          </section>
+                          <div className="rating_holder">
+                            <div className="stars">
+                            <img src = {star} className='img-fluid'/>
+                            <img src = {star} className='img-fluid'/>
+                            <img src = {star} className='img-fluid'/>
+                            <img src = {star} className='img-fluid'/>
+                            <img src = {star} className='img-fluid'/>
+                            </div>
+                            <p className="type mb-0">Order Rating</p>
+                          </div>
+                          <p className="review mt-3">Very Good</p>
+                          <hr/>
+                    </div>
+                    <div className="people_holder">
+                          <section className="username">
+                            <img src = {newuser} className='img-fluid' />
+                            <div className="info">
+                              <p className="name mb-0 fw-bold">Ekta Gupta</p>
+                              <p className="followers mb-0">7 Followers</p>
+                            </div>
+                            <p className="date">02 Sept 2023</p>
+                          </section>
+                          <div className="rating_holder">
+                            <div className="stars">
+                            <img src = {star} className='img-fluid'/>
+                            <img src = {star} className='img-fluid'/>
+                            <img src = {star} className='img-fluid'/>
+                            <img src = {star} className='img-fluid'/>
+                            <img src = {star} className='img-fluid'/>
+                            </div>
+                            <p className="type mb-0">Order Rating</p>
+                          </div>
+                          <p className="review mt-3">Very Good</p>
+                    </div>
+
+                </section>
+              </div>
+            </div>
+          </Col>
+          <Col md  ='8'>
+          </Col>
+          <Col md  ='12'>
+          <Essential/>
+
+          </Col>
+          
         </Row>
       </Container>
     </section>

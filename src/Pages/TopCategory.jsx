@@ -24,6 +24,29 @@ const TopCategory = () => {
         slidesToScroll :7,
         autoplay : true,
         infinte : true,
+        responsive:[
+            {
+                breakpoint : 1200,
+                settings :{
+                    slidesToShow : 2,
+                    slidesToScroll : 1
+                },
+            },
+            {
+                breakpoint : 1008,
+                settings:{
+                    slidesToScroll : 1,
+                    slidesToShow : 1,
+                }
+            },
+            {
+                breakpoint : 800,
+                settings:{
+                    slidesToScroll : 1,
+                    slidesToShow : 1,
+                }
+            }
+        ]
     }
   return (
     <section className='topCategory'>

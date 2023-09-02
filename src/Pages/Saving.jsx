@@ -16,7 +16,30 @@ const Saving = () => {
         speed: 500,
         slidesToShow: 4,
         slidesToScroll: 1,
-        autoplay : true
+        autoplay : true,
+        responsive:[
+            {
+                breakpoint : 1200,
+                settings :{
+                    slidesToShow : 2,
+                    slidesToScroll : 1
+                },
+            },
+            {
+                breakpoint : 1008,
+                settings:{
+                    slidesToScroll : 1,
+                    slidesToShow : 1,
+                }
+            },
+            {
+                breakpoint : 800,
+                settings:{
+                    slidesToScroll : 1,
+                    slidesToShow : 1,
+                }
+            }
+        ]
       };
   return (
     <section className="mt-5 mb-5">

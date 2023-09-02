@@ -21,6 +21,29 @@ const Strikes = () => {
         speed: 500,
         slidesToScroll : 4,
         infinite : true,
+        responsive:[
+            {
+                breakpoint : 1200,
+                settings :{
+                    slidesToShow : 2,
+                    slidesToScroll : 1
+                },
+            },
+            {
+                breakpoint : 1008,
+                settings:{
+                    slidesToScroll : 1,
+                    slidesToShow : 1,
+                }
+            },
+            {
+                breakpoint : 800,
+                settings:{
+                    slidesToScroll : 1,
+                    slidesToShow : 1,
+                }
+            }
+        ]
 
         // autoplay:  true,
 
