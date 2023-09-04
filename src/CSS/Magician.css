@@ -18,7 +18,7 @@ background-size: cover;
     position: relative;
     text-align: center;
     padding: 100px;
-    margin-top: 52px;
+    /* margin-top: 52px; */
   }
   
   .magicians-content .magic_logo {

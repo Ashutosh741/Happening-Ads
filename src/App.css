@@ -11,6 +11,37 @@ height: 606px;
 flex-shrink: 0;
 }
 
+Link{
+  text-decoration: none;
+}
+
+.header .navbar{
+  padding: 0px 2rem;
+}
+
+.header .navbar .signup_btn{
+  background-color :  #76306E;
+  border-color:  #76306E;
+  box-shadow: none;
+}
+
+.header .navbar-light .navbar-nav .nav-link {
+  color: #76306E !important;;
+  margin: 0px 0.7rem;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+
+.header .navbar  .navbar-nav{
+  display: flex;
+  align-items: center;
+}
+
+
+.header .navbar .get_app img {
+  height: 18px;
+}
 /* .carousel_top{
   max-height: 550px;
 } */
@@ -1618,4 +1649,12 @@ body{
 
 .rating_reviews .people_holder .review{
 
+}
+
+.current_location{
+  width: 100%;
+}
+
+.breadcrumb a{
+  text-decoration: none;
 }

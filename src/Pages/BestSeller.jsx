@@ -51,7 +51,7 @@ const BestSeller = () => {
         <Container>
             <Row>
                 <Col md = '12'>
-                    <h4 className='mb-4 fw-bolder'>Bestsellers From Our Collection</h4>
+                    <h4 className='mb-4 mt-4 fw-bolder'>Bestsellers From Our Collection</h4>
                 </Col>
                 <Col md = '12'>
                     <Slider {...settings}>

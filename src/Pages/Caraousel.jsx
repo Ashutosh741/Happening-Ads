@@ -4,9 +4,9 @@ import Slider from "react-slick";
 import Container from 'react-bootstrap/esm/Container';
 import Row from 'react-bootstrap/esm/Row';
 import Col from 'react-bootstrap/esm/Col';
-import Screen1 from '../images/banner12.jpg'
-import Screen2 from '../images/banner15.jpg'
-import Screen3 from '../images/banner13.jpg'
+import Screen1 from '../images/banner15.jpg'
+import Screen2 from '../images/banner13.jpg'
+import Screen3 from '../images/banner12.jpg'
 import Screen4 from '../images/banner14.jpg'
 // import Screen5 from '../images/banner15.jpg'
 import '../CSS/Carousel.css'
@@ -15,7 +15,7 @@ const Carousel = (props) => {
   return (
     <section className='carousel_top mb-5'>
       
-      <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel" data-interval ="5000">
+      <div id="carouselExampleIndicators" className="carousel slide"  data-ride="carousel" >
   <div className="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>

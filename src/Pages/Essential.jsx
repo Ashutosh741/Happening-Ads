@@ -11,7 +11,7 @@ import Voucher5 from '../images/voucher5.webp'
 import Voucher6 from '../images/voucher6.webp'
 import Voucher7 from '../images/voucher7.webp'
 import Voucher8 from '../images/voucher8.jpg'
-
+import {Link} from 'react-router-dom'
 import HomeDelivery from '../images/home_delivery_tag.svg'
 
 function SampleNextArrow(props) {
@@ -88,6 +88,7 @@ const Essential = () => {
             </div>
           </Col>
           <Col md = '12'>
+            <Link to = "/store">
             <Slider {...settings}>
               <div className="">
                   <a className="voucher_card">
@@ -199,6 +200,7 @@ const Essential = () => {
                   </a>
               </div>
             </Slider>
+            </Link>
           </Col>
         </Row>
       </Container>

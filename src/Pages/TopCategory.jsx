@@ -14,7 +14,7 @@ import category9 from '../images/category9.png'
 import category10 from '../images/category10.png'
 import category11 from '../images/category11.png'
 import category12 from '../images/category12.png'
-
+import {Link} from 'react-router-dom'
 
 const TopCategory = () => {
     const settings = {
@@ -75,7 +75,9 @@ const TopCategory = () => {
                             <img src = {category6} className='img-fluid w-100' />
                         </div>
                         <div className="category_images">
+                            <Link to = "/pharmacy">
                             <img src = {category8} className='img-fluid w-100' />
+                            </Link>
                         </div>
                         <div className="category_images">
                             <img src = {category9} className='img-fluid w-100' />
